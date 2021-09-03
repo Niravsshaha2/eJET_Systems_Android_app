@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "155126476951",
+    "firebase_url": "https://sonaai-11.firebaseio.com",
+    "project_id": "sonaai-11",
+    "storage_bucket": "sonaai-11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155126476951:android:38ed0bdebd096bfa94f9d2",
+        "android_client_info": {
+          "package_name": "com.example.sonaai_11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155126476951-e134t5mq0s6gm3amhjlapopnl0f421ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sonaai_11",
+            "certificate_hash": "34989ced6e6bc63dbf99976f89e72694632cf981"
+          }
+        },
+        {
+          "client_id": "155126476951-mpjl57fqrq6lvrnvotbdame1bko3d2mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaSp_CqJ4u0lzhuYRYhDjKxxoO-rlKoAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155126476951-mpjl57fqrq6lvrnvotbdame1bko3d2mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

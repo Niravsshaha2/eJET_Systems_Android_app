@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".chatBot"
+    android:orientation="vertical"
+    android:background="@drawable/b_chatbot"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="15dp"
+        android:layout_above="@+id/editText_layout"
+        android:id="@+id/recyclerViewLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/editText_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:background="@null"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+         android:weightSum="2"
+        android:layout_marginStart="15dp"
+         >
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:background="@drawable/type_message_layout"
+            android:alpha="0.5"
+            android:id="@+id/typedMessage"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+             android:hint="Type Something"
+            android:imeOptions="actionGo|flagNoFullscreen"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+
+
+
+        <Button
+
+            android:id ="@+id/voice_btn"
+            android:layout_gravity="center"
+
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_keyboard_voice_black_24dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:padding="15dp"
+            android:layout_weight="1.8"
+            android:alpha="1"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

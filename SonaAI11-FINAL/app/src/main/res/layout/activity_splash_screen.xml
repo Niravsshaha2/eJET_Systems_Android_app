@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".splashScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="81dp"
+        android:layout_centerHorizontal="true"
+         app:srcCompat="@drawable/sona_logo"
+        />
+
+
+    <TextView
+        android:id="@+id/h2"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+         android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:textStyle="bold"
+        android:textColor="#1070bf"
+        android:lineSpacingExtra="16sp"
+        android:text="Sona.AI"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
